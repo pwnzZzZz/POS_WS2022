@@ -1,0 +1,26 @@
+CREATE TABLE IF NOT EXISTS book(
+   id    INTEGER  NOT NULL PRIMARY KEY 
+  ,title VARCHAR(200) NOT NULL
+  ,price NUMERIC(4,2) NOT NULL
+  ,stock INTEGER  NOT NULL
+);
+INSERT INTO book(id,title,price,stock) VALUES (1,'Y-Solowarm',6.25,8);
+INSERT INTO book(id,title,price,stock) VALUES (2,'Gembucket',7.80,3);
+INSERT INTO book(id,title,price,stock) VALUES (3,'Bamity',31.09,7);
+INSERT INTO book(id,title,price,stock) VALUES (4,'Bamity',27.15,4);
+INSERT INTO book(id,title,price,stock) VALUES (5,'Bytecard',11.81,4);
+INSERT INTO book(id,title,price,stock) VALUES (6,'Zoolab',5.83,7);
+INSERT INTO book(id,title,price,stock) VALUES (7,'Keylex',30.35,7);
+INSERT INTO book(id,title,price,stock) VALUES (8,'Mat Lam Tam',24.44,1);
+INSERT INTO book(id,title,price,stock) VALUES (9,'Holdlamis',10.31,0);
+INSERT INTO book(id,title,price,stock) VALUES (10,'Viva',15.78,7);
+INSERT INTO book(id,title,price,stock) VALUES (11,'Lotstring',14.66,2);
+INSERT INTO book(id,title,price,stock) VALUES (12,'Holdlamis',16.79,6);
+INSERT INTO book(id,title,price,stock) VALUES (13,'Mat Lam Tam',38.28,4);
+INSERT INTO book(id,title,price,stock) VALUES (14,'Sonair',9.48,10);
+INSERT INTO book(id,title,price,stock) VALUES (15,'Duobam',29.27,7);
+INSERT INTO book(id,title,price,stock) VALUES (16,'Overhold',24.83,6);
+INSERT INTO book(id,title,price,stock) VALUES (17,'Hatity',5.41,1);
+INSERT INTO book(id,title,price,stock) VALUES (18,'Latlux',37.97,8);
+INSERT INTO book(id,title,price,stock) VALUES (19,'Cardguard',26.13,6);
+INSERT INTO book(id,title,price,stock) VALUES (20,'Flexidy',15.27,1);

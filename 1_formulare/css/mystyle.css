@@ -1,0 +1,20 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url('../img/formbackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+input
+{
+    width: 100%;
+    margin-bottom: 1em;
+    font-weight: bold;
+    background-color: cornsilk;
+}
